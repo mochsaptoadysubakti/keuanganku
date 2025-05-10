@@ -1,4 +1,4 @@
-name: keuanganku
+name: keuanganku_app
 description: "Aplikasi pencatat keuangan pribadi sederhana dengan analisis visual."
 publish_to: 'none'
 
@@ -16,6 +16,7 @@ dependencies:
   google_fonts: ^6.1.0
   shared_preferences: ^2.0.15
   flutter_native_splash: ^2.3.8
+  image_picker: ^1.0.4
 
 flutter_native_splash:
   color: "#009688" # Ini warna teal (sesuaikan dengan background splash kamu)
@@ -41,3 +42,6 @@ flutter:
     - assets/images/wallet.png
     - assets/images/income_icon.png
     - assets/images/expense_icon.png
+
+
+
